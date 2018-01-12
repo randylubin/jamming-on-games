@@ -24,7 +24,7 @@ layout: null
     <lastBuildDate>{{ site.time | time_to_rssschema }}</lastBuildDate>
     <language>{{ site.language }}</language>
     <generator>Jekyll-Octopod {{ site | version_string }}</generator>
-
+    <itunes:new-feed-url>https://jammingongames.com//episodes.mp3.rss</itunes:new-feed-url>
     <itunes:summary>{{ site.description | markdownify | strip_html }}</itunes:summary>
     <itunes:author>{{ site.author }}</itunes:author>
     <itunes:explicit>{{ site.explicit }}</itunes:explicit>
