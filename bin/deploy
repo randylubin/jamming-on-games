@@ -24,6 +24,8 @@ then
 fi
 git checkout -b gh-pages
 
+echo "##### Checkpoint 1"
+
 # Build site.
 yarn install --modules-folder ./_assets/yarn
 bundle exec jekyll build
@@ -33,10 +35,14 @@ find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm 
 mv _site/* .
 rm -R _site/
 
+echo "##### Checkpoint 2"
+
 # Push to gh-pages.
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 git push -f -q origin gh-pages
+
+echo "##### Checkpoint 3"
 
 # Move back to previous branch.
 git checkout -
