@@ -1,15 +1,11 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: default
+navigation: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# About the Host
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+[Randy Lubin](https://randylubin.com) is an entrepreneur and game designer, based in San Francisco.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+His game studio is [Diegetic Games](https://diegeticgames.com/) - and he mostly make small storytelling games.

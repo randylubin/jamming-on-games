@@ -3,10 +3,10 @@ title: Jamming on Games
 # You should configure this ####################################################
 url: http://localhost:4000
 download_url: "http://localhost:4000/episodes"
-subtitle: Static Site Podcast Publishing for Geeks
+subtitle: Game designers disussing their design process, game ideas, and interating on their games through conversation
 description: A podcast about game design where designers talk about their process, work through obstacles, and brainstorm mechanics
 author: Randy Lubin
-author_url: "http://localhost:4000" # This is the URL of a site owned by the author (s. https://jsonfeed.org/version/1)
+author_url: "https://randylubin.com" # This is the URL of a site owned by the author (s. https://jsonfeed.org/version/1)
 email: randy@jammingongames.com
 keywords: [games, game design, larp, rpg, podcast]
 itunes_categories: [Games]
@@ -25,10 +25,11 @@ ssh_port: 22
 document_root: /path/to/your/htdocs/
 rsync_delete: true
 # You can configure this #######################################################
-twitter_nick: randylubin
+twitter_nick: jammingongames
 language: en
 explicit: 'no'  # 'yes'/'no'/clean
-license: CC BY 4.0
+license: "CC BY 4.0"
+license_url: https://creativecommons.org/licenses/by-nc/4.0/
 ## Flattr ######################################################################
 flattr_uid: # Flattr will not be used unless this is set
 flattr_button: compact # compact | default
