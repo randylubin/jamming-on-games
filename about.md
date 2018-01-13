@@ -8,4 +8,8 @@ navigation: 1
 
 [Randy Lubin](https://randylubin.com) is an entrepreneur and game designer, based in San Francisco.
 
-His game studio is [Diegetic Games](https://diegeticgames.com/) - and he mostly make small storytelling games.
+## Links
+
+* His game studio is [Diegetic Games](https://diegeticgames.com/)
+* His personal website is [randylubin.com](https://randylubin.com)
+* He tweets at [@randylubin](https://twitter.com/randylubin)
