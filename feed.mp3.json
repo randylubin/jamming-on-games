@@ -1,5 +1,51 @@
----
-layout: jsonfeed
-format: mp3
----
-{{ content }}
+{"version": "https://jsonfeed.org/version/1",
+ "title": "Jamming on Games",
+ "home_page_url": "https://jammingongames.com/",
+ "feed_url": "https://jammingongames.com/feed.json",
+ "description": "A podcast about game design where designers talk about their process, work through obstacles, and brainstorm mechanics",
+ "user_comment": "A podcast about game design where designers talk about their process, work through obstacles, and brainstorm mechanics",
+ "icon": "https://jammingongames.com/apple-touch-icon-precomposed.png",
+ "favicon": "https://jammingongames.com/favicon.ico",
+ "expired": false,
+ "author": {
+   "name": "Randy Lubin",
+   "url": "https://randylubin.com"
+ },
+ "items": [
+   {"id": "e71411c3",
+    "title": "Episode 3: New Year, New Game, Game Jam",
+    "summary": "",
+    "content_text": "Show NotesThe folks at the Stop, Hack, and Roll podcast have announced a New Year, New Game, Game Jam. In this episode, Andrew Cedotal, Dustin Freeman, and I discuss our ideas for submissions to the game jam.I ended up changing the setting of my game to dystopic underground bunker. The final version I submitted to the jam is Loyalty Celebration.Also, I’ve launched a Patreon for my game designs: https://www.patreon.com/randylubinEpisode Links  Rules for the game jam  Loyalty Celebration – my submission  Andrew Cedotal’s Website  Dustin Freeman’s Website  Dustin Freeman’s Twitter",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"https://jammingongames.com/episodes/Episode3.mp3\"},\"coverUrl\":\"https://jammingongames.com/img/logo-360x360.png\",\"title\":\"Episode 3: New Year, New Game, Game Jam\",\"subtitle\":null,\"url\":\"https://jammingongames.com/2017/12/19/episode-3_-new-year_-new-game_-game-jam.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro\"},{\"start\":\"00:01:00.000 \",\"title\":\"The Game Jam Rules\"},{\"start\":\"00:02:08.000 \",\"title\":\"Andrew's Pitch\"},{\"start\":\"00:09:18.000 \",\"title\":\"Randy's Pitch\"},{\"start\":\"00:18:57.000 \",\"title\":\"Dustin's Pitch\"},{\"start\":\"00:25:46.000 \",\"title\":\"Outro\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes\">Show Notes</h2><p>The folks at the Stop, Hack, and Roll podcast have announced a New Year, New Game, Game Jam. In this episode, Andrew Cedotal, Dustin Freeman, and I discuss our ideas for submissions to the game jam.</p><p>I ended up changing the setting of my game to dystopic underground bunker. The final version I submitted to the jam is <a href=\"https://diegeticgames.com/game_files/Loyalty-Celebration.pdf\">Loyalty Celebration</a>.</p><p>Also, I’ve launched a <a href=\"https://www.patreon.com/randylubin\">Patreon</a> for my game designs: <a href=\"https://www.patreon.com/randylubin\">https://www.patreon.com/randylubin</a></p><h2 id=\"episode-links\">Episode Links</h2><ul>  <li><a href=\"https://docs.google.com/document/d/1-eeKEh478HofE4dNFXmmcJBblG2z31KAVwVWTmb0Kew/edit\">Rules for the game jam</a></li>  <li><a href=\"https://diegeticgames.com/game_files/Loyalty-Celebration.pdf\">Loyalty Celebration</a> – my submission</li>  <li><a href=\"http://www.andrewcedotal.com/\">Andrew Cedotal’s Website</a></li>  <li><a href=\"http://dustinfreeman.org/\">Dustin Freeman’s Website</a></li>  <li><a href=\"https://twitter.com/dustinfreeman\">Dustin Freeman’s Twitter</a></li></ul>",
+    "url": "https://jammingongames.com/2017/12/19/episode-3_-new-year_-new-game_-game-jam.html",
+    "date_published": "2017-12-19T00:00:00-08:00",
+    "date_modified": "2017-12-19T00:00:00-08:00",
+    "author": {
+      "name": "Randy Lubin"
+    }
+  },
+   {"id": "2fde3382",
+    "title": "Episode 2: Gaming with Biosensors",
+    "summary": "",
+    "content_text": "ShownotesI’ve invited on Nathan Maton to talk about integrating biosensors into roleplaying games. We discuss currently available technology like brainwave, heart rate, and galvanic skin response sensors and the different game mechanics that can rely on them. Then we jump ahead to future technology and speculate a little on how brain-computer interfaces can create new storytelling experiences.Episode Links  Nathan Maton  Nathan’s podcast, The Last Stand  Brain wave sensors Emotiv and Muse  Webcam based heart rate detection",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"https://jammingongames.com/episodes/Episode2.mp3\"},\"coverUrl\":\"https://jammingongames.com/img/logo-360x360.png\",\"title\":\"Episode 2: Gaming with Biosensors\",\"subtitle\":null,\"url\":\"https://jammingongames.com/2017/10/18/episode-2_-gaming-with-biosensors.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro\"},{\"start\":\"00:00:36.000 \",\"title\":\"Conversation\"},{\"start\":\"00:29:10.000 \",\"title\":\"Outro\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"shownotes\">Shownotes</h2><p>I’ve invited on Nathan Maton to talk about integrating biosensors into roleplaying games. We discuss currently available technology like brainwave, heart rate, and galvanic skin response sensors and the different game mechanics that can rely on them. Then we jump ahead to future technology and speculate a little on how brain-computer interfaces can create new storytelling experiences.</p><h2 id=\"episode-links\">Episode Links</h2><ul>  <li><a href=\"https://twitter.com/nathanmaton\">Nathan Maton</a></li>  <li>Nathan’s podcast, <a href=\"https://thelaststandpodcast.com/\">The Last Stand</a></li>  <li>Brain wave sensors <a href=\"https://www.emotiv.com/\">Emotiv</a> and <a href=\"http://www.choosemuse.com/\">Muse</a></li>  <li>Webcam based <a href=\"https://github.com/thearn/webcam-pulse-detector\">heart rate detection</a></li></ul>",
+    "url": "https://jammingongames.com/2017/10/18/episode-2_-gaming-with-biosensors.html",
+    "date_published": "2017-10-18T00:00:00-07:00",
+    "date_modified": "2017-10-18T00:00:00-07:00",
+    "author": {
+      "name": "Randy Lubin"
+    }
+  },
+   {"id": "b42817df",
+    "title": "Episode 1: Among the Mortals (Golden Cobra 2017)",
+    "summary": "",
+    "content_text": "Show NotesI’m working on my submission for Golden Cobra freeform larp challenge and invite on another designer, Nick Punt, to help. We analyze the current draft and brainstorm ways to improve my initial design.The final version of the game is called Among the Mortals and you can check it out here.Episode LinksNick Punt on TwitterGolden Cobra",
+    "content_html": "<script>  window.playerConfiguration = {\"options\":{\"theme\":\"default\",\"startPanel\":\"ChapterMarks\"},\"extensions\":{\"ChapterMarks\":{},\"EpisodeInfo\":{},\"Playlist\":{}},\"title\":null,\"episode\":{\"media\":{\"mp3\":\"https://jammingongames.com/episodes/Episode1.mp3\"},\"coverUrl\":\"https://jammingongames.com/img/logo-360x360.png\",\"title\":\"Episode 1: Among the Mortals (Golden Cobra 2017)\",\"subtitle\":null,\"url\":\"https://jammingongames.com/2017/09/28/episode-1_-among-the-mortals-_golden-cobra-2017_.html\",\"description\":null,\"chaptermarks\":[{\"start\":\"00:00:00.000 \",\"title\":\"Intro.\"},{\"start\":\"00:01:52.000 \",\"title\":\"Game Discussion\"},{\"start\":\"00:39:04.000 \",\"title\":\"Update and Outro\"}]}}</script><script class=\"podigee-podcast-player\" data-configuration=\"playerConfiguration\" src=\"https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js\"></script><h2 id=\"show-notes\">Show Notes</h2><p>I’m working on my submission for Golden Cobra freeform larp challenge and invite on another designer, Nick Punt, to help. We analyze the current draft and brainstorm ways to improve my initial design.</p><p>The final version of the game is called Among the Mortals and you can <a href=\"https://diegeticgames.com/blog/2017/09/23/Golden-Cobra-2017-Among-the-Mortals.html\">check it out here</a>.</p><h2 id=\"episode-links\">Episode Links</h2><p><a href=\"https://twitter.com/nickpunt\">Nick Punt on Twitter</a><a href=\"http://www.goldencobra.org/\">Golden Cobra</a></p>",
+    "url": "https://jammingongames.com/2017/09/28/episode-1_-among-the-mortals-_golden-cobra-2017_.html",
+    "date_published": "2017-09-28T00:00:00-07:00",
+    "date_modified": "2017-09-28T00:00:00-07:00",
+    "author": {
+      "name": "Randy Lubin"
+    }
+  }]
+}

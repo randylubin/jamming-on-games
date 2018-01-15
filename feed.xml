@@ -1,30 +1,103 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Jamming on Games</title>
+    <description>A podcast about game design where designers talk about their process, work through obstacles, and brainstorm mechanics</description>
+    <link>https://jammingongames.com/</link>
+    <atom:link href="https://jammingongames.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Jan 2018 12:40:42 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Jan 2018 12:40:42 -0800</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Episode 3: New Year, New Game, Game Jam</title>
+        <description>&lt;script&gt;
+  window.playerConfiguration = {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://jammingongames.com/episodes/Episode3.mp3&quot;},&quot;coverUrl&quot;:&quot;https://jammingongames.com/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode 3: New Year, New Game, Game Jam&quot;,&quot;subtitle&quot;:null,&quot;url&quot;:&quot;https://jammingongames.com/2017/12/19/episode-3_-new-year_-new-game_-game-jam.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:[{&quot;start&quot;:&quot;00:00:00.000 &quot;,&quot;title&quot;:&quot;Intro&quot;},{&quot;start&quot;:&quot;00:01:00.000 &quot;,&quot;title&quot;:&quot;The Game Jam Rules&quot;},{&quot;start&quot;:&quot;00:02:08.000 &quot;,&quot;title&quot;:&quot;Andrew's Pitch&quot;},{&quot;start&quot;:&quot;00:09:18.000 &quot;,&quot;title&quot;:&quot;Randy's Pitch&quot;},{&quot;start&quot;:&quot;00:18:57.000 &quot;,&quot;title&quot;:&quot;Dustin's Pitch&quot;},{&quot;start&quot;:&quot;00:25:46.000 &quot;,&quot;title&quot;:&quot;Outro&quot;}]}}
+&lt;/script&gt;
+
+&lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot; src=&quot;https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;h2 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h2&gt;
+
+&lt;p&gt;The folks at the Stop, Hack, and Roll podcast have announced a New Year, New Game, Game Jam. In this episode, Andrew Cedotal, Dustin Freeman, and I discuss our ideas for submissions to the game jam.&lt;/p&gt;
+
+&lt;p&gt;I ended up changing the setting of my game to dystopic underground bunker. The final version I submitted to the jam is &lt;a href=&quot;https://diegeticgames.com/game_files/Loyalty-Celebration.pdf&quot;&gt;Loyalty Celebration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I’ve launched a &lt;a href=&quot;https://www.patreon.com/randylubin&quot;&gt;Patreon&lt;/a&gt; for my game designs: &lt;a href=&quot;https://www.patreon.com/randylubin&quot;&gt;https://www.patreon.com/randylubin&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;episode-links&quot;&gt;Episode Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1-eeKEh478HofE4dNFXmmcJBblG2z31KAVwVWTmb0Kew/edit&quot;&gt;Rules for the game jam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://diegeticgames.com/game_files/Loyalty-Celebration.pdf&quot;&gt;Loyalty Celebration&lt;/a&gt; – my submission&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.andrewcedotal.com/&quot;&gt;Andrew Cedotal’s Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dustinfreeman.org/&quot;&gt;Dustin Freeman’s Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/dustinfreeman&quot;&gt;Dustin Freeman’s Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 Dec 2017 00:00:00 -0800</pubDate>
+        <link>https://jammingongames.com/2017/12/19/episode-3_-new-year_-new-game_-game-jam.html</link>
+        <guid isPermaLink="true">https://jammingongames.com/2017/12/19/episode-3_-new-year_-new-game_-game-jam.html</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Episode 2: Gaming with Biosensors</title>
+        <description>&lt;script&gt;
+  window.playerConfiguration = {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://jammingongames.com/episodes/Episode2.mp3&quot;},&quot;coverUrl&quot;:&quot;https://jammingongames.com/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode 2: Gaming with Biosensors&quot;,&quot;subtitle&quot;:null,&quot;url&quot;:&quot;https://jammingongames.com/2017/10/18/episode-2_-gaming-with-biosensors.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:[{&quot;start&quot;:&quot;00:00:00.000 &quot;,&quot;title&quot;:&quot;Intro&quot;},{&quot;start&quot;:&quot;00:00:36.000 &quot;,&quot;title&quot;:&quot;Conversation&quot;},{&quot;start&quot;:&quot;00:29:10.000 &quot;,&quot;title&quot;:&quot;Outro&quot;}]}}
+&lt;/script&gt;
+
+&lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot; src=&quot;https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;h2 id=&quot;shownotes&quot;&gt;Shownotes&lt;/h2&gt;
+
+&lt;p&gt;I’ve invited on Nathan Maton to talk about integrating biosensors into roleplaying games. We discuss currently available technology like brainwave, heart rate, and galvanic skin response sensors and the different game mechanics that can rely on them. Then we jump ahead to future technology and speculate a little on how brain-computer interfaces can create new storytelling experiences.&lt;/p&gt;
+
+&lt;h2 id=&quot;episode-links&quot;&gt;Episode Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/nathanmaton&quot;&gt;Nathan Maton&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Nathan’s podcast, &lt;a href=&quot;https://thelaststandpodcast.com/&quot;&gt;The Last Stand&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Brain wave sensors &lt;a href=&quot;https://www.emotiv.com/&quot;&gt;Emotiv&lt;/a&gt; and &lt;a href=&quot;http://www.choosemuse.com/&quot;&gt;Muse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Webcam based &lt;a href=&quot;https://github.com/thearn/webcam-pulse-detector&quot;&gt;heart rate detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 18 Oct 2017 00:00:00 -0700</pubDate>
+        <link>https://jammingongames.com/2017/10/18/episode-2_-gaming-with-biosensors.html</link>
+        <guid isPermaLink="true">https://jammingongames.com/2017/10/18/episode-2_-gaming-with-biosensors.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Episode 1: Among the Mortals (Golden Cobra 2017)</title>
+        <description>&lt;script&gt;
+  window.playerConfiguration = {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://jammingongames.com/episodes/Episode1.mp3&quot;},&quot;coverUrl&quot;:&quot;https://jammingongames.com/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode 1: Among the Mortals (Golden Cobra 2017)&quot;,&quot;subtitle&quot;:null,&quot;url&quot;:&quot;https://jammingongames.com/2017/09/28/episode-1_-among-the-mortals-_golden-cobra-2017_.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:[{&quot;start&quot;:&quot;00:00:00.000 &quot;,&quot;title&quot;:&quot;Intro.&quot;},{&quot;start&quot;:&quot;00:01:52.000 &quot;,&quot;title&quot;:&quot;Game Discussion&quot;},{&quot;start&quot;:&quot;00:39:04.000 &quot;,&quot;title&quot;:&quot;Update and Outro&quot;}]}}
+&lt;/script&gt;
+
+&lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot; src=&quot;https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;h2 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h2&gt;
+
+&lt;p&gt;I’m working on my submission for Golden Cobra freeform larp challenge and invite on another designer, Nick Punt, to help. We analyze the current draft and brainstorm ways to improve my initial design.&lt;/p&gt;
+
+&lt;p&gt;The final version of the game is called Among the Mortals and you can &lt;a href=&quot;https://diegeticgames.com/blog/2017/09/23/Golden-Cobra-2017-Among-the-Mortals.html&quot;&gt;check it out here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;episode-links&quot;&gt;Episode Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/nickpunt&quot;&gt;Nick Punt on Twitter&lt;/a&gt;
+&lt;a href=&quot;http://www.goldencobra.org/&quot;&gt;Golden Cobra&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Sep 2017 00:00:00 -0700</pubDate>
+        <link>https://jammingongames.com/2017/09/28/episode-1_-among-the-mortals-_golden-cobra-2017_.html</link>
+        <guid isPermaLink="true">https://jammingongames.com/2017/09/28/episode-1_-among-the-mortals-_golden-cobra-2017_.html</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>
