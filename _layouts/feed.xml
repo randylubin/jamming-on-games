@@ -24,7 +24,7 @@ layout: null
     <lastBuildDate>{{ site.time | time_to_rssschema }}</lastBuildDate>
     <language>{{ site.language }}</language>
     <generator>Jekyll-Octopod {{ site | version_string }}</generator>
-    <itunes:new-feed-url>https://jammingongames.com//episodes.mp3.rss</itunes:new-feed-url>
+    <itunes:new-feed-url>https://jammingongames.com/episodes.mp3.rss</itunes:new-feed-url>
     <itunes:summary>{{ site.description | markdownify | strip_html }}</itunes:summary>
     <itunes:author>{{ site.author }}</itunes:author>
     <itunes:explicit>{{ site.explicit }}</itunes:explicit>
@@ -66,7 +66,7 @@ layout: null
             <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
             <description><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape | remove_script_and_audio }}]]></description>
             <content:encoded><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape | remove_script_and_audio }}]]></content:encoded>
-            {% assign url = download_url | append: '/' | append: post.audio[page.format] %}
+            {% assign url = 'https://dts.podtrac.com/redirect.mp3/jammingongames.com/episodes/' | append: post.audio[page.format] %}
             <enclosure url="{{ url }}" length="{{ post.audio | audio:page.format | file_size }}" type="{{ page.format | mime_type }}" guid="{{ url | sha1:32}}" />
             <itunes:keywords>{{ post.tags }}</itunes:keywords>
             <itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>

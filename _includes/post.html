@@ -25,7 +25,8 @@
 
     {% if post.audio %}
       {% for file in post.audio %}
-      <a class="btn btn-primary" href="{{ site | download_url_with_fallback }}/{{ file.last }}">Download .{{ file.first }} ({{ file.last | file_size:'./' | string_of_size }})</a>
+        {% assign url = 'https://dts.podtrac.com/redirect.mp3/jammingongames.com/episodes/' | append: file.last] %}
+        <a class="btn btn-primary" href="{{ url }}">Download .{{ file.first }} ({{ file.last | file_size:'./' | string_of_size }})</a>
       {% endfor %}
     {% endif %}
   <hr>
